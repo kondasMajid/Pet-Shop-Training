@@ -1,0 +1,14 @@
+
+ul{
+    color: dark;
+     list-style-type: none;
+}
+
+li {
+    display:inline;
+}
+
+li a{
+    text-decoration: none;
+     color: green;
+}
