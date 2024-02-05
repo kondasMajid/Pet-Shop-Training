@@ -34,6 +34,7 @@
   
 #topMenu {
     height: 60px;
+    margin: 0 15px;
 }
 
 #topMenu .logo {
@@ -46,6 +47,7 @@
 
 .logo {
     font-family: "Anton", cursive;
+    color: #4392F1;
 }
 
 
@@ -61,3 +63,125 @@
     float:right;
     padding-top: 20px;;
 }
+
+.about-us .left-column {
+    float: left;
+    width: 50%;
+    padding-top: 2em;
+}
+
+.left-column{
+    text-align: center;
+    padding-left: 3em;
+}
+
+.right-column{
+    text-align: center;
+    padding-right: 3em;
+}
+
+.about-us .right-column{
+    width: 0%;
+}
+
+.about-us  {
+    margin: 1em 1.2em;
+}
+
+.left-column h2{
+    padding-bottom: 1em;
+    color:red
+}
+
+.about-us .right-column img {
+    margin-left: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.about-us .left-column p {
+    text-align: justify;
+}
+
+.services {
+    margin: 2em;  
+}
+
+.services .service-content {
+    width:30%;
+    float: left;
+    padding: 5px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+hr {
+    margin:1.2em 0;
+}
+
+
+table tr td {
+    width: 33.3%;
+    padding: 20px;
+}
+
+table tr td  h3{
+    text-align: left;
+    color:#333;
+    font-size:15px
+}
+
+table {
+    background-color: antiquewhite;
+}
+
+.feature .leftColumn {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.feature .rightColumn {
+    margin-left: 50%;
+    width: 50%;
+    text-align: center;
+}
+.feature .leftColumn .text,
+.feature .rightColumn .text {
+        padding: 80px 20px 20px 20px;
+        min-height: 260px;
+}
+.feature .leftColumn .text a,
+.feature .rightColumn .text a {
+            -webkit-transition: all 250ms ease-out;
+            -ms-transition: all 250ms ease-out;
+            transition: all 250ms ease-out;
+            padding: 20px;
+            background-color: #4392F1;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+ }
+
+
+ .welcome h1 {
+    text-align: center;
+    /* font-family: 'Inter Tight', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    color: rgb(2, 51, 51);
+    margin: 1em 0 2em 0; 
+ }
+
+
+ .abt-desc {
+    margin: 1em 2em 2em 2em;
+ }
+
+ .abt-desc p {
+    font-size: 1.4em;
+    text-align: justify;
+    line-height: 1.6em;
+ }
