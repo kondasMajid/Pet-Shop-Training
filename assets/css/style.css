@@ -5,10 +5,59 @@ ul{
 }
 
 li {
-    display:inline;
+   
 }
 
 li a{
     text-decoration: none;
-     color: green;
+     color: rgba(red, green, blue, );
+}
+
+
+
+#topLinks {
+    float: right;
+    padding-top: 20px;
+}
+#topMenu {
+    height: 60px;
+}
+
+#topMenu .logo {
+    float: left;
+    padding-top: 13px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Anton", cursive;
+}
+
+#topLinks  li{
+  float: left;
+}
+
+#topLinks li a {
+    color: #333;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+#topMenu .logo:hover {
+    color: #4392F1;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:turquoise;
+    float:right;
+    padding-top: 20px;;
 }
